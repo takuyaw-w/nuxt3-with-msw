@@ -19,7 +19,8 @@ export const handlers = [
             name: "piyopiyo",
           },
         ],
-      })
+      }),
+      ctx.delay(2000)
     );
   }),
 ];
