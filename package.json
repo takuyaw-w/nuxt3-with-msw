@@ -10,5 +10,8 @@
   "devDependencies": {
     "msw": "^0.47.1",
     "nuxt": "3.0.0-rc.9"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
