@@ -13,5 +13,7 @@
 </template>
 
 <script setup lang="ts">
-const { data, pending, error } = useFetch("/users");
+const { data, pending, error } = useFetch("/users", {
+  server: false,
+});
 </script>
